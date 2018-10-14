@@ -3,7 +3,7 @@
 Q1: __Basics of Sets and Relations #1__
 
 ```
-######You are given two sets. 
+You are given two sets. 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
 How many elements are present in A U B? 
@@ -11,9 +11,7 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 ```
 > Answer: 8
->
 > A U B ( U - or) = A + B - A and B
->
 > A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7,8}-{2,3,4,5,6}={1,2,3,4,5,6,7,8}
 
 
