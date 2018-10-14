@@ -124,6 +124,7 @@ Q8: __Relational Algebra - 3__
 
 ```
 Which is a join condition contains an equality operator?
+
 ```
 ###### Answer: Equijoins - joining against equality
 ###### FROM t1
