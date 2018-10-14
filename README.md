@@ -57,7 +57,8 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 Q5: *__Basics of Sets and Relations #5__*
 
-```Consider the following data table named Student.
+```
+Consider the following data table named Student.
 ```
 Student Name | Number | Sex
 ------------ | ------------- | -------------
@@ -74,7 +75,8 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 
 Q6: *__Basics of Sets and Relations #6__*
 
-```Consider the following data table named Student.
+```
+Consider the following data table named Student.
 ```
 Name | Number | Sex
 ------------ | ------------- | -------------
@@ -92,7 +94,8 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 
 Q7: __Basics of Sets and Relations #7__
 
-```Consider the following data table named Student.
+```
+Consider the following data table named Student.
 ```
 Student Name | Number | Sex
 ------------ | ------------- | -------------
@@ -100,7 +103,8 @@ Nina | 3412 | F
 Mike | 1234 | M  
 Nelson | 2341 | F  
 
-```Here is another data table named Teaching Assistants
+```
+Here is another data table named Teaching Assistants
 ```
 Subject | ID
 ------|------
@@ -118,7 +122,8 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 
 Q8: __Relational Algebra - 3__
 
-```Which is a join condition contains an equality operator?
+```
+Which is a join condition contains an equality operator?
 ```
 ###### Answer: Equijoins - joining against equality
 ###### FROM t1
@@ -143,19 +148,22 @@ NAN | 5 C5
 
 Q9: __Relational Algebra - 4__
 
-```In precedence of set operators the expression is evaluated from:
+```
+In precedence of set operators the expression is evaluated from:
 ```
 ###### Answer: Left to right
 
 Q10: __Database Query Languages__
 
-```Using which language can a user request information from a database ?
+```
+Using which language can a user request information from a database ?
 ```
 ###### Answer: Query
 
 Q11: __Procedural Language__
 
-```Which one of the following is a procedural language ?
+```
+Which one of the following is a procedural language ?
 ```
 ###### Answer: Relational algebra
 
@@ -176,26 +184,30 @@ Q13: __Relations - 2__
 
 Q14: __Index Architecture Types__
 
-```How many index architecture type classifications are there in MS SQL Server?
+```
+How many index architecture type classifications are there in MS SQL Server?
 ```
 ###### Answer: 2 
 ###### Clustered and non clusterd
 
 Q15: __OLAP Performance__
 
-```Which of these helps OLAP speed up queries, in terms of performance?
+```
+Which of these helps OLAP speed up queries, in terms of performance?
 ```
 ###### Answer: Aggregation
 
 Q16: __OLAP Operations - 1__
 
-```This OLAP operation involves computing all of the data relationships for one or more dimensions.
+```
+This OLAP operation involves computing all of the data relationships for one or more dimensions.
 ```
 ###### Answer: roll-up
 
 Q17: __Indexes - 2__
 
-```Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
+```
+Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
 ```
 ###### Answer: If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 
@@ -210,19 +222,22 @@ Which the followings describes the relation between A and B:
 
 Q19: __OLAP Operations - 2__
 
-```This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
+```
+This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
 ```
 ###### Answer: pivot
 
 Q20: __Indexes - 4__
 
-```The correct syntax for creating composite indexes in MS SQL Sever is:
+```
+The correct syntax for creating composite indexes in MS SQL Sever is:
 ```
 ###### Answer: <p>CREATE INDEX index_name</p> <p>ON table_name(column1, column2);</p>
 
 Q21: __OLAP Cube Metadata__
 
-```What is the source of the cube metadata for OLAP?
+```
+What is the source of the cube metadata for OLAP?
 ```
 ###### Answer: Both star and snowflake schema(s)
 
@@ -235,7 +250,8 @@ Q22: __OLAP Name(s)__
 
 Q23: __The Total View__
 
-```Which of these provides a total view of the organization?
+```
+Which of these provides a total view of the organization?
 ```
 ######  Answer: Data Warehousing
 
@@ -403,7 +419,8 @@ F1 Pizza | Thick | Greenville
 F1 Pizza | Thin | Whitefield
 F1 Pizza | Thin | Greenville
 
-```In the text box below, enter the value of the integer N.
+```
+In the text box below, enter the value of the integer N.
 ```
 ###### Answer: 6
 
@@ -436,7 +453,8 @@ Only fill in the name of the field which may be used as the primary key. Grading
 
 Q37: __Databases - Natural Joins__
 
-```Relation R(A,C) has the following tuples:
+```
+Relation R(A,C) has the following tuples:
 ```
 A | C
 ---|---
@@ -446,7 +464,8 @@ A | C
 3 | 15 
 27 | 1
 
-```Relation S(B,C,D) has the following tuples:
+```
+Relation S(B,C,D) has the following tuples:
 ```
 B | C | D
 ---|---|---
@@ -469,7 +488,8 @@ A | B | C | D
 
 Q38: __Databases - Differences__
 
-```Relation R(A,B,C) has the following tuples:
+```
+Relation R(A,B,C) has the following tuples:
 ```
 A | B | C
 ---|---|---
@@ -479,7 +499,8 @@ A | B | C
 2 | 5 | 3 
 1 | 2 | 6
 
-```and relation S(A,B,C) has the following tuples:
+```
+and relation S(A,B,C) has the following tuples:
 ```
 A | B | C 
 ---|---|---
