@@ -6,14 +6,14 @@ Q1: __Basics of Sets and Relations #1__
 You are given two sets. 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
-
 How many elements are present in A U B? 
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
 ```
 > Answer: 8
 >
-> A U B ( U - or) = A + B - A and B 
+> A U B ( U - or) = A + B - A and B
+>
 > A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7,8}-{2,3,4,5,6}={1,2,3,4,5,6,7,8}
 
 
@@ -21,10 +21,8 @@ Q2: __Basics of Sets and Relations #2__
 
 ```
 You are given two sets. 
-
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
-
 How many elements are present in A and B? 
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
@@ -32,17 +30,19 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 > Answer: 5
 >
-> A U B ( U - or) = A + B - A and B 
+> A U B ( U - or) = A + B - A and B
+>
 > A and B = A + B  - A U B ( U - or) 
+>
 > A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {1,2,3,4,5,6,2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {2,3,4,5,6}
 
 
 Q3: __Basics of Sets and Relations #3__
 
 ```
+You are given two sets.
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
-
 How many elements are present in A - B? 
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
@@ -70,7 +70,9 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 > Answer: 42
 >
 > set A = 6 values
+>
 > set B = 7 values
+>
 > number pairs = 6*7 =42
 >
 > (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (2,2) (2,3) (2,4) (2,5) (2,6) (2,7) (2,8) (3,2) (3,3) (3,4) (3,5) (3,6) (3,7) (3,8)
@@ -92,12 +94,12 @@ Nel | 2341 | F
 ```
 What is the count of rows returned in the following relational selection? 
 σ(Number<3000)(Student)
-
 Only enter a single integer. Do not include any extra spaces or newlines.
 
 ```
 
 > Answer: 2
+>
 > Number 3412 < 3000 and Number 2341 < 3000
 
 
@@ -115,10 +117,10 @@ Nelson | 2341 | F
 ```
 What is the count of attributes (columns) returned in the following projection? 
 π(Name, Number)(Student)
-
 Only enter a single integer. Do not include any extra spaces or newlines.
 ```
-> Answer: 2 
+> Answer: 2
+>
 > Name, Number
 
 
@@ -146,12 +148,13 @@ Mathematics | 2341
 ```
 What is the count of rows returned in the following join operation? 
 Student ⊳⊲(Number=ID) Teaching Assistants
-
 Only enter a single integer. Do not include any extra spaces or newlines.
 ```
 
 > Answer: 2
+>
 > Number=ID=3412
+>
 > Number=ID=2341
 
 
@@ -162,8 +165,11 @@ Which is a join condition contains an equality operator?
 ```
 
 > Answer: Equijoins - joining against equality
+>
 > FROM t1
+>
 > JOIN t2
+>
 > ON t1.id=t2.id
 
 t1 | t2
@@ -176,10 +182,15 @@ t1 | t2
  NAN | 5 C5
 
 > 2 A2 --> 2 B2
+>
 > 5 A5 --> 5 B5
+>
 > 5 A5 --> 5 C5
+>
 > 3 A3 --> 3 -
+>
 > 1 -  --> 1 B1
+>
 > 4 A4 does not equal 6 B6
 
 
@@ -188,7 +199,7 @@ Q9: __Relational Algebra - 4__
 ```
 In precedence of set operators the expression is evaluated from:
 ```
-Answer: Left to right
+> Answer: Left to right
 
 
 Q10: __Database Query Languages__
@@ -196,7 +207,7 @@ Q10: __Database Query Languages__
 ```
 Using which language can a user request information from a database ?
 ```
-Answer: Query
+> Answer: Query
 
 
 Q11: __Procedural Language__
@@ -204,7 +215,7 @@ Q11: __Procedural Language__
 ```
 Which one of the following is a procedural language ?
 ```
-Answer: Relational algebra
+> Answer: Relational algebra
 
 
 Q12: __Relations - 1__
@@ -248,7 +259,6 @@ Q16: __OLAP Operations - 1__
 ```
 This OLAP operation involves computing all of the data relationships for one or more dimensions.
 ```
-
 > Answer: roll-up
 
 
@@ -265,11 +275,8 @@ Q18: __Indexes - 3__
 
 ```
 Consider the following two designs to store the data using clustered indexes in MS SQL Server:
-
 * In the first design, the fill factor is 20% and the total number of free rows per page are A.
-
 * In the second design, the fill factor is 40% and the total number of free rows per page are B. 
-
 Which the followings describes the relation between A and B:
 ```
 > Answer: A = 1.33B
@@ -284,6 +291,7 @@ This OLAP Operation rotates the data, and delivers an alternative to the origina
 
 
 Q20: __Indexes - 4__
+
 ```
 The correct syntax for creating composite indexes in MS SQL Sever is:
 ```
@@ -291,6 +299,7 @@ The correct syntax for creating composite indexes in MS SQL Sever is:
 
 
 Q21: __OLAP Cube Metadata__
+
 ```
 What is the source of the cube metadata for OLAP?
 ```
@@ -298,6 +307,7 @@ What is the source of the cube metadata for OLAP?
 
 
 Q22: __OLAP Name(s)__
+
 ```
 Which of these are alternate names for an OLAP Cube? The options in the top row are a and b respecitvely and those in the bottom row are c and d.
 ```
@@ -349,7 +359,9 @@ What are the values of X, Y, Z? Enter these integers, each on a new line, in the
 > Answer: 
 >
 > 3 (1, 15.0), (2, 18.0), (3, 2.5)
+>
 > 5 (Red, 15.0), (Green, 15.0), (Blue, 18.0), (Yellow, 2.5), (Pink, 2.5)
+>
 > 2 *Product-ID* and *Price*, *Colors* and *Price*
 
 
@@ -395,12 +407,11 @@ Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not l
 ```
 > Answer: 3
 
-********************************************************************************************************
-
 Q30: __Database Normalization #6__
+
 ```
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
-
+```
 _Relations (The key is CAPITALIZED):_
 customer(name,addr,MEMBERNO)
 movie(DESCRIPTION,director,serialno)
@@ -414,6 +425,7 @@ name,addr -> memberno
 memberno -> name,addr
 serialno,date -> memberno
 
+```
 The above relation is in _xNF_ form where x may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
 What is the maximum possible value of _x_ such that the above relation satisfies the _xNF_ form? 
 Your answer should only be restricted to one of these numbers:1/2/3/3.5. Do not leave any leading or trailing spaces.
@@ -426,7 +438,7 @@ Q31: __Database Normalization #7__
 
 ```
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants:
-
+```
 _Relations:_
 movie(DESCRIPTION,serialno)
 serial(SERIALNO,director)
@@ -440,7 +452,7 @@ serialno->director
 name,addr -> memberno
 memberno -> name,addr
 serialno,date -> memberno
-
+```
 The above relation is in _xNF_ form where _x_ may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
 What is the maximum possible value of _x_ such that the above relation satisfies the _xNF_ form? 
 Your answer should only be restricted to one of these numbers: 1/2/3/3.5. Do not leave any leading or trailing spaces.
@@ -453,22 +465,22 @@ Q32: __Database Normalization #8__
 
 ```
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
-
+```
 _Relations (The key is CAPITALIZED):_
 
 customer(name,addr,MEMBERNO)
 movie(DESCRIPTION,director,serialno)
 borrow(memberno,DATE,SERIALNO)
-
+```
 Which of these determinants is a NON-KEY dependency? In the text box, only enter the index number (1-6) of the dependency which you have identified as non-key.
-
+```
 1.  description->director,serialno
 2.  serialno->description
 3.  serialno->director
 4.  name,addr -> memberno
 5.  memberno -> name,addr
 6.  serialno,date -> memberno
-
+```
 Output Format
 In the text box, only enter the index number (1-6) of the dependency which you have identified as non-key.
 ```
@@ -553,6 +565,7 @@ Only fill in the name of the field which may be used as the primary key. Grading
 
 
 Q37: __Databases - Natural Joins__
+
 ```
 Relation R(A,C) has the following tuples:
 ```
@@ -573,11 +586,8 @@ B | C | D
 4 | 3 | 9
 ```
 The following tuple is in the result of the natural join between R and S where tuples are structured as (A,B,C,D):
-
 27, X, Y, Z
-
 In the answer box, fill up the values of the integers X, Y and Z in three separate lines. e.g.
-
 10
 20
 30  
@@ -590,6 +600,7 @@ A | B | C | D
 
 
 Q38: __Databases - Differences__
+
 ```
 Relation R(A,B,C) has the following tuples:
 ```
@@ -611,11 +622,8 @@ A | B | C
 1 | 2 | 3
 ```
 The differences (R-S) is computed and the following tuple is found to be present in the result. Assume that the schema of the result is (A,B,C).
-
 4, b, c
-
 Find the integers b and c. Fill in the values in the answer box, each on a new line.
-
 Output Format
 Two integers, corresponding to b and c, each on a new line. For example:
 4  
