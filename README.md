@@ -2,6 +2,7 @@
 
 Q1: __Basics of Sets and Relations #1__
 
+```
 You are given two sets. 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
@@ -9,6 +10,7 @@ Set B = {2,3,4,5,6,7,8}
 How many elements are present in A U B? 
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
+```
 Answer: 8
 
 A U B ( U - or) = A + B - A and B 
@@ -444,14 +446,9 @@ Let us take the example of a simple movie library. Each movie has a description,
 
 _Relations (The key is CAPITALIZED):_
 
-***
 customer(name,addr,MEMBERNO)
-***
 movie(DESCRIPTION,director,serialno)
-***
 borrow(memberno,DATE,SERIALNO)
-
-
 
 Which of these determinants is a NON-KEY dependency? In the text box, only enter the index number (1-6) of the dependency which you have identified as non-key.
 
