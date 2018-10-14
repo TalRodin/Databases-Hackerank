@@ -1,6 +1,6 @@
 # Databases-Hackerank
 
-Q1: Basics of Sets and Relations #1
+Q1: __Basics of Sets and Relations #1__
 
 You are given two sets. 
 Set A = {1,2,3,4,5,6} 
@@ -15,7 +15,7 @@ A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7
 
 ********************************************************************************************************
 
-Q2: Basics of Sets and Relations #2
+Q2: __Basics of Sets and Relations #2__
 
 You are given two sets. 
 Set A = {1,2,3,4,5,6} 
@@ -31,7 +31,7 @@ A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {1,2,3,4,5,6,2,3,4
 
 ********************************************************************************************************
 
-Q3: Basics of Sets and Relations #3
+Q3: __Basics of Sets and Relations #3__
 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
@@ -45,7 +45,7 @@ We substract from set A the values which are in set B if value in set A = value 
 
 ********************************************************************************************************
 
-Q4: Basics of Sets and Relations #4
+Q4: __Basics of Sets and Relations #4__
 
 You are given two sets. 
 Set A = {1,2,3,4,5,6} 
@@ -64,7 +64,7 @@ number pairs = 6*7 =42
 
 ********************************************************************************************************
 
-Q5: Basics of Sets and Relations #5
+Q5: __Basics of Sets and Relations #5__
 
 Consider the following data table named Student.
 
@@ -84,14 +84,15 @@ Number 3412 < 3000 and Number 2341 < 3000
 
 ********************************************************************************************************
 
-Q6: Basics of Sets and Relations #6
+Q6: __Basics of Sets and Relations #6__
 
 Consider the following data table named Student.
 
-Name                Number  Sex  
-Nina                3412    F 
-Mike                1234    M  
-Nelson              2341    F  
+Name | Number | Sex
+------------ | ------------- | -------------
+Nina | 3412 | F 
+Mike | 1234 | M  
+Nelson | 2341 | F  
 What is the count of attributes (columns) returned in the following projection? 
 π(Name, Number)(Student)
 
@@ -102,14 +103,15 @@ Name, Number
 
 ********************************************************************************************************
 
-Q7: Basics of Sets and Relations #7
+Q7: __Basics of Sets and Relations #7__
 
 Consider the following data table named Student.
 
-Student Name        Number  Sex  
-Nina                3412    F 
-Mike                1234    M  
-Nelson              2341    F  
+Student Name | Number | Sex
+------------ | ------------- | -------------
+Nina | 3412 | F 
+Mike | 1234 | M  
+Nelson | 2341 | F  
 Here is another data table named Teaching Assistants
 
 Subject     ID
@@ -128,7 +130,7 @@ Number=ID=2341
 
 ********************************************************************************************************
 
-Q8: Relational Algebra - 3
+Q8: __Relational Algebra - 3__
 
 Which is a join condition contains an equality operator?
 
@@ -153,7 +155,7 @@ t1        t2
 
 ********************************************************************************************************
 
-Q9: Relational Algebra - 4
+Q9: __Relational Algebra - 4__
 
 In precedence of set operators the expression is evaluated from:
 
@@ -161,7 +163,7 @@ Answer: Left to right
 
 ********************************************************************************************************
 
-Q10: Database Query Languages
+Q10: __Database Query Languages__
 
 Using which language can a user request information from a database ?
 
@@ -169,7 +171,7 @@ Answer: Query
 
 ********************************************************************************************************
 
-Q11: Procedural Language
+Q11: __Procedural Language__
 
 Which one of the following is a procedural language ?
 
@@ -177,7 +179,7 @@ Answer: Relational algebra
 
 ********************************************************************************************************
 
-Q12: Relations - 1
+Q12: __Relations - 1__
 
 The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
 
@@ -185,7 +187,7 @@ Answer: Join
 
 ********************************************************************************************************
 
-Q13: Relations - 2
+Q13: __Relations - 2__
 
 The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
 
@@ -196,7 +198,7 @@ A × B = {(7, 2); (7, 4); (7, 6); (8, 2); (8, 4); (8, 6)}
 
 ********************************************************************************************************
 
-Q14: Index Architecture Types
+Q14: __Index Architecture Types__
 
 How many index architecture type classifications are there in MS SQL Server?
 
@@ -205,7 +207,7 @@ Clustered and non clusterd
 
 ********************************************************************************************************
 
-Q15: OLAP Performance
+Q15: __OLAP Performance__
 
 Which of these helps OLAP speed up queries, in terms of performance?
 
@@ -213,7 +215,7 @@ Answer: Aggregation
 
 ********************************************************************************************************
 
-Q16: OLAP Operations - 1
+Q16: __OLAP Operations - 1__
 
 This OLAP operation involves computing all of the data relationships for one or more dimensions.
 
@@ -221,7 +223,7 @@ Answer: roll-up
 
 ********************************************************************************************************
 
-Q17: Indexes - 2
+Q17: __Indexes - 2__
 
 Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
 
@@ -229,7 +231,7 @@ Answer: If the table has a clustered index, or the index is on an indexed view, 
 
 ********************************************************************************************************
 
-Q18: Indexes - 3
+Q18: __Indexes - 3__
 
 Consider the following two designs to store the data using clustered indexes in MS SQL Server:
 * In the first design, the fill factor is 20% and the total number of free rows per page are A.
@@ -242,7 +244,7 @@ Answer: A = 1.33B
 
 ********************************************************************************************************
 
-Q19: OLAP Operations - 2
+Q19: __OLAP Operations - 2__
 
 This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
 
@@ -250,7 +252,7 @@ Answer: pivot
 
 ********************************************************************************************************
 
-Q20: Indexes - 4
+Q20: __Indexes - 4__
 
 The correct syntax for creating composite indexes in MS SQL Sever is:
 
@@ -258,7 +260,7 @@ Answer: <p>CREATE INDEX index_name</p> <p>ON table_name(column1, column2);</p>
 
 ********************************************************************************************************
 
-Q21: OLAP Cube Metadata
+Q21: __OLAP Cube Metadata__
 
 What is the source of the cube metadata for OLAP?
 
@@ -266,7 +268,7 @@ Answer: Both star and snowflake schema(s)
 
 ********************************************************************************************************
 
-Q22: OLAP Name(s)
+Q22: __OLAP Name(s)__
 
 Which of these are alternate names for an OLAP Cube? The options in the top row are a and b respecitvely and those in the bottom row are c and d.
 
@@ -274,7 +276,7 @@ Answer: Multidimensional Cube, HyperCube
 
 ********************************************************************************************************
 
-Q23: The Total View
+Q23: __The Total View__
 
 Which of these provides a total view of the organization?
 
@@ -282,7 +284,7 @@ Answer: Data Warehousing
 
 ********************************************************************************************************
 
-Q24: OLAP Operation Types
+Q24: __OLAP Operation Types__
 
 Consider a fact table DataPoints(D1,D2,D3,x), and the following three queries:
 
@@ -298,13 +300,15 @@ Answer: (4, 7, 3, 84, 160, 117)
 
 ********************************************************************************************************
 
-Q25: Database Normalization #1 - 1NF
+Q25: __Database Normalization #1 - 1NF__
+
 The following unnormalized table named PRODUCT is transformed to first normal form (1NF) by splitting it into two tables which have X and Y rows (such that X <Y) respectively. Both the tables have Z columns.
 
-*Product-ID*    *Colors*     *Price*
-1               Red,Green    15.0
-2               Blue         18.0
-3               Yellow,Pink  2.5
+*Product-ID* | *Colors* | *Price*
+------------ | ------------- | -------------
+1 | Red,Green | 15.0
+2 | Blue | 18.0
+3 | Yellow,Pink | 2.5
 What are the values of X, Y, Z? Enter these integers, each on a new line, in the text-box below. Do not leave any leading or trailing spaces.
 
 Answer:
@@ -314,7 +318,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q26: Database Normalization #2 - 1/2/3 NF
+Q26: __Database Normalization #2 - 1/2/3 NF__
 
 A particular database is normalized to satisfy a particular level of normalization (either 1NF or 2NF or 3NF). One of the tables contains, among other fields, a column for the City and a column for the Zip Code. Assuming that there is a many-to-one mapping between the set of Zip Code(s) and City, we may conclude that the database is definitely NOT in xNF form. What is the integer x (1, 2, or 3)? Fill your answer in the text box below.
 
@@ -323,7 +327,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q27: Database Normalization #3
+Q27: __Database Normalization #3__
 
 A database used by a college’s application stores the relationship between students and the courses they are enrolled in. We have information for each STUDENT (such as name, date of birth, date of enrollment, student-id) and COURSE (course code, instructor, etc.). In real life, a student takes several courses simultaneously while a subject is studied by several students. We need to capture this many-to-many relationship in our database. From the above information, what is the minimum number of tables required to structure this database in accordance with the rules of 2NF normalization?
 
@@ -332,7 +336,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q28: Database Normalization #4
+Q28: __Database Normalization #4__
 
 A database, normalized as per 2NF rules, has been split into 10 tables. Each of the tables has exactly two columns: one key attribute and one non-key attribute. What is the minimum number of tables required to express this database in 3NF form? Enter the integer in the text box below. Do not leave any leading or trailing spaces.
 
@@ -341,7 +345,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q29: Database Normalization #5
+Q29: __Database Normalization #5__
 
 Consider the following relation and determinants.
 
@@ -359,7 +363,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q30: Database Normalization #6
+Q30: __Database Normalization #6__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
 
@@ -382,7 +386,9 @@ Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not l
 Answer:
 2
 
-Q31: Database Normalization #7
+********************************************************************************************************
+
+Q31: __Database Normalization #7__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants:
 
@@ -407,7 +413,7 @@ Answer: 3.5
 
 ********************************************************************************************************
 
-Q32: Database Normalization #8
+Q32: __Database Normalization #8__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
 
@@ -432,7 +438,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q33: Database Normalization #9
+Q33: __Database Normalization #9__
 
 Consider the following relation and determinants. The key(s) are bolded. 
 R(a, b ,c,d,e)
@@ -448,24 +454,24 @@ Answer:
 
 ********************************************************************************************************
 
-Q34: Database Normalization #10
+Q34: __Database Normalization #10__
 
 The following table stores rows of information about pizza deliveries. The three columns correspond to the Restaurant name, Crust, Delivery Area. We convert this table into Fourth Normal Form and so we end up creating two tables, each with two columns and N rows. (Both the new tables have an equal number of rows)
 
-Restaurant  Crust       Delivery Area
--------------------------------------------
-X Pizza     Thick       Whitefield
-X Pizza     Thick       Greenville
-X Pizza     Thick       Capital
-X Pizza     Stuffed     Whitefield
-X Pizza     Stuffed     Greenville
-X Pizza     Stuffed     Capital
-Papa Pizza  Thin        Capital
-Papa Pizza  Stuffed     Capital
-F1 Pizza    Thick       Whitefield
-F1 Pizza    Thick       Greenville
-F1 Pizza    Thin        Whitefield
-F1 Pizza    Thin        Greenville
+Restaurant | Crust | Delivery Area
+------------ | ------------- | -------------
+X Pizza | Thick | Whitefield
+X Pizza | Thick | Greenville
+X Pizza | Thick | Capital
+X Pizza | Stuffed | Whitefield
+X Pizza | Stuffed | Greenville
+X Pizza | Stuffed | Capital
+Papa Pizza | Thin | Capital
+Papa Pizza | Stuffed | Capital
+F1 Pizza | Thick | Whitefield
+F1 Pizza | Thick | Greenville
+F1 Pizza | Thin | Whitefield
+F1 Pizza | Thin | Greenville
 In the text box below, enter the value of the integer N.
 
 Answer:
@@ -473,12 +479,10 @@ Answer:
 
 ********************************************************************************************************
 
-Q35:Databases - Relational Calculus
+Q35: __Databases - Relational Calculus__
 
 We execute the following query (in Relational Calculus) on a set of integers S. 
 For the given set S, what will be the answer? Fill up the answer box with the required integer.
-
-{x|}
 
 S = {4,5,6,7,10,11,19,18,3}
 
@@ -487,7 +491,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q36: Databases - Keys
+Q36: __Databases - Keys__
 
 A database table with three fields (bookname, author, language) has been created. If the table is as provided below, which of these three fields may be used as the primary key?
 
@@ -506,7 +510,7 @@ Answer: bookname
 
 ********************************************************************************************************
 
-Q37: Databases - Natural Joins
+Q37: __Databases - Natural Joins__
 
 Relation R(A,C) has the following tuples:
 
@@ -541,7 +545,7 @@ Answer:
 
 ********************************************************************************************************
 
-Q38: Databases - Differences
+Q38: __Databases - Differences__
 
 Relation R(A,B,C) has the following tuples:
 
