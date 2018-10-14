@@ -10,7 +10,9 @@ How many elements are present in A U B?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
 Answer: 8
+
 A U B ( U - or) = A + B - A and B 
+
 A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7,8}-{2,3,4,5,6}={1,2,3,4,5,6,7,8}
 
 ********************************************************************************************************
@@ -18,6 +20,7 @@ A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7
 Q2: __Basics of Sets and Relations #2__
 
 You are given two sets. 
+
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
 
@@ -25,8 +28,11 @@ How many elements are present in A and B?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
 Answer: 5
+
 A U B ( U - or) = A + B - A and B 
-A and B = A + B  - A U B ( U - or)You are given two sets. 
+
+A and B = A + B  - A U B ( U - or) 
+
 A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {1,2,3,4,5,6,2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {2,3,4,5,6}
 
 ********************************************************************************************************
@@ -40,7 +46,9 @@ How many elements are present in A - B?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
 Answer: 1
+
 A - B = {1,2,3,4,5,6} - {2,3,4,5,6,7,8} = {1}
+
 We substract from set A the values which are in set B if value in set A = value in set B and the result is what left in set A.
 
 ********************************************************************************************************
@@ -95,13 +103,13 @@ Nina | 3412 | F
 Mike | 1234 | M  
 Nelson | 2341 | F
 
-
 What is the count of attributes (columns) returned in the following projection? 
 π(Name, Number)(Student)
 
 Only enter a single integer. Do not include any extra spaces or newlines.
 
 Answer: 2 
+
 Name, Number
 
 ********************************************************************************************************
@@ -116,13 +124,13 @@ Nina | 3412 | F
 Mike | 1234 | M  
 Nelson | 2341 | F  
 
-
 Here is another data table named Teaching Assistants
 
-Subject     ID
-Physics     3412
-Chemistry   1111
-Mathematics 2341
+Subject | ID
+------|------
+Physics | 3412
+Chemistry | 1111
+Mathematics | 2341
 
 What is the count of rows returned in the following join operation? 
 Student ⊳⊲(Number=ID) Teaching Assistants
@@ -319,8 +327,11 @@ The following unnormalized table named PRODUCT is transformed to first normal fo
 What are the values of X, Y, Z? Enter these integers, each on a new line, in the text-box below. Do not leave any leading or trailing spaces.
 
 Answer:
+
 3 (1, 15.0), (2, 18.0), (3, 2.5)
+
 5 (Red, 15.0), (Green, 15.0), (Blue, 18.0), (Yellow, 2.5), (Pink, 2.5)
+
 2 *Product-ID* and *Price*, *Colors* and *Price*
 
 ********************************************************************************************************
@@ -330,7 +341,8 @@ Q26: __Database Normalization #2 - 1/2/3 NF__
 A particular database is normalized to satisfy a particular level of normalization (either 1NF or 2NF or 3NF). One of the tables contains, among other fields, a column for the City and a column for the Zip Code. Assuming that there is a many-to-one mapping between the set of Zip Code(s) and City, we may conclude that the database is definitely NOT in xNF form. What is the integer x (1, 2, or 3)? Fill your answer in the text box below.
 
 Answer:
-3
+
+NOT in 3NF
 
 ********************************************************************************************************
 
@@ -339,6 +351,7 @@ Q27: __Database Normalization #3__
 A database used by a college’s application stores the relationship between students and the courses they are enrolled in. We have information for each STUDENT (such as name, date of birth, date of enrollment, student-id) and COURSE (course code, instructor, etc.). In real life, a student takes several courses simultaneously while a subject is studied by several students. We need to capture this many-to-many relationship in our database. From the above information, what is the minimum number of tables required to structure this database in accordance with the rules of 2NF normalization?
 
 Answer:
+
 3
 
 ********************************************************************************************************
@@ -348,6 +361,7 @@ Q28: __Database Normalization #4__
 A database, normalized as per 2NF rules, has been split into 10 tables. Each of the tables has exactly two columns: one key attribute and one non-key attribute. What is the minimum number of tables required to express this database in 3NF form? Enter the integer in the text box below. Do not leave any leading or trailing spaces.
 
 Answer:
+
 10
 
 ********************************************************************************************************
@@ -366,6 +380,7 @@ What is the maximum possible value of x such that the above relation satisfies t
 Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not leave any leading or trailing spaces.
 
 Answer:
+
 3
 
 ********************************************************************************************************
@@ -374,24 +389,25 @@ Q30: __Database Normalization #6__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
 
-Relations (The key is CAPITALIZED):
+_Relations (The key is CAPITALIZED):_
 customer(name,addr,MEMBERNO)
 movie(DESCRIPTION,director,serialno)
 borrow(memberno,DATE,SERIALNO)
 
-Determinants:
+_Determinants:_
 description->director,serialno
 serialno->description
 serialno->director
 name,addr -> memberno
 memberno -> name,addr
 serialno,date -> memberno
-The above relation is in x**NF form where x may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
-What is the maximum possible value of **x such that the above relation satisfies the *x*NF form? 
-Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not leave any leading or trailing spaces.
+
+The above relation is in _xNF_ form where x may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
+What is the maximum possible value of _x_ such that the above relation satisfies the _xNF_ form? 
+Your answer should only be restricted to one of these numbers:1/2/3/3.5. Do not leave any leading or trailing spaces.
 
 Answer:
-2
+2NF
 
 ********************************************************************************************************
 
@@ -399,24 +415,26 @@ Q31: __Database Normalization #7__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants:
 
-Relations:
+_Relations:_
 movie(DESCRIPTION,serialno)
 serial(SERIALNO,director)
 customer(name,addr,MEMBERNO)
 borrow(memberno,DATE,SERIALNO)
 
-Determinants:
+_Determinants:_
 description->director,serialno
 serialno->description
 serialno->director
 name,addr -> memberno
 memberno -> name,addr
 serialno,date -> memberno
-The above relation is in x**NF form where x may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
-What is the maximum possible value of **x such that the above relation satisfies the *x*NF form? 
-Your answer should only be restricted to one of these numbers:1/2/3/3.5 Do not leave any leading or trailing spaces.
 
-Answer: 3.5
+The above relation is in _xNF_ form where _x_ may take the following values {1,2,3,3.5} corresponding to {1NF, 2NF, 3NF and BCNF} respectively. 
+What is the maximum possible value of _x_ such that the above relation satisfies the _xNF_ form? 
+Your answer should only be restricted to one of these numbers: 1/2/3/3.5. Do not leave any leading or trailing spaces.
+
+Answer: 
+3.5NF
 
 ********************************************************************************************************
 
@@ -424,7 +442,7 @@ Q32: __Database Normalization #8__
 
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
 
-Relations (The key is CAPITALIZED):
+_Relations (The key is CAPITALIZED):_
 customer(name,addr,MEMBERNO)
 movie(DESCRIPTION,director,serialno)
 borrow(memberno,DATE,SERIALNO)
@@ -436,8 +454,8 @@ Which of these determinants is a NON-KEY dependency? In the text box, only enter
 4.  name,addr -> memberno
 5.  memberno -> name,addr
 6.  serialno,date -> memberno
-Output Format
 
+Output Format
 In the text box, only enter the index number (1-6) of the dependency which you have identified as non-key.
 
 Answer:
@@ -511,6 +529,7 @@ Godaan, Premchand, Hindi
 Chandrakanta, Devaki Nandan Khatri, Hindi
 Hamlet, William Shakespeare, English
 The Merchant of Venice, William Shakespeare, English
+
 Output Format
 
 Only fill in the name of the field which may be used as the primary key. Grading is case-sensitive.
@@ -550,7 +569,9 @@ In the answer box, fill up the values of the integers X, Y and Z in three separa
 30  
 
 Answer: 
+
 A=27(table 1) --> C=1 (table 1) --> C=1 (table 2) --> B=50 (table 2) and D=9 (table 2)
+
 A | B | C | D
 ---|---|---|---
 27 | 50 | 1 | 6
