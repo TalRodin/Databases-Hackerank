@@ -74,6 +74,7 @@ Ben | 3412 | M
 Dan | 1234 | M  
 Nel | 2341 | F 
 
+
 What is the count of rows returned in the following relational selection? 
 σ(Number<3000)(Student)
 
@@ -92,7 +93,9 @@ Name | Number | Sex
 ------------ | ------------- | -------------
 Nina | 3412 | F 
 Mike | 1234 | M  
-Nelson | 2341 | F  
+Nelson | 2341 | F
+
+
 What is the count of attributes (columns) returned in the following projection? 
 π(Name, Number)(Student)
 
@@ -112,6 +115,8 @@ Student Name | Number | Sex
 Nina | 3412 | F 
 Mike | 1234 | M  
 Nelson | 2341 | F  
+
+
 Here is another data table named Teaching Assistants
 
 Subject     ID
@@ -309,6 +314,8 @@ The following unnormalized table named PRODUCT is transformed to first normal fo
 1 | Red,Green | 15.0
 2 | Blue | 18.0
 3 | Yellow,Pink | 2.5
+
+
 What are the values of X, Y, Z? Enter these integers, each on a new line, in the text-box below. Do not leave any leading or trailing spaces.
 
 Answer:
@@ -472,6 +479,8 @@ F1 Pizza | Thick | Whitefield
 F1 Pizza | Thick | Greenville
 F1 Pizza | Thin | Whitefield
 F1 Pizza | Thin | Greenville
+
+
 In the text box below, enter the value of the integer N.
 
 Answer:
@@ -549,20 +558,22 @@ Q38: __Databases - Differences__
 
 Relation R(A,B,C) has the following tuples:
 
-A B C 
-1 2 3 
-4 2 3 
-4 5 6 
-2 5 3 
-1 2 6
+A | B | C
+---|---|---
+1 | 2 | 3 
+4 | 2 | 3 
+4 | 5 | 6 
+2 | 5 | 3 
+1 | 2 | 6
 
 and relation S(A,B,C) has the following tuples:
 
-A B C 
-2 5 3 
-2 5 4 
-4 5 6 
-1 2 3
+A | B | C 
+---|---|---
+2 | 5 | 3 
+2 | 5 | 4 
+4 | 5 | 6 
+1 | 2 | 3
 
 The differences (R-S) is computed and the following tuple is found to be present in the result. Assume that the schema of the result is (A,B,C).
 
@@ -571,14 +582,18 @@ The differences (R-S) is computed and the following tuple is found to be present
 Find the integers b and c. Fill in the values in the answer box, each on a new line.
 
 Output Format
-
 Two integers, corresponding to b and c, each on a new line. For example:
-
 4  
 5  
 
 Answer: 
-2
-3
+
+A | B | C
+---|---|---
+4 | 2 | 3 
+1 | 2 | 6
+
+b=2
+b=3
 
 
