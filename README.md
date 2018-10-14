@@ -443,9 +443,16 @@ Q32: __Database Normalization #8__
 Let us take the example of a simple movie library. Each movie has a description, director, and serial number. Customers have a name, address, and membership number. Assume only one copy of each movie exists in the library. We are given the following relations and determinants. The keys for each relation are CAPITALIZED.
 
 _Relations (The key is CAPITALIZED):_
+
+***
 customer(name,addr,MEMBERNO)
+***
 movie(DESCRIPTION,director,serialno)
+***
 borrow(memberno,DATE,SERIALNO)
+
+
+
 Which of these determinants is a NON-KEY dependency? In the text box, only enter the index number (1-6) of the dependency which you have identified as non-key.
 
 1.  description->director,serialno
@@ -522,13 +529,14 @@ Q36: __Databases - Keys__
 
 A database table with three fields (bookname, author, language) has been created. If the table is as provided below, which of these three fields may be used as the primary key?
 
-bookname-author-language
-A Tale of Two Cities, Charles Dickens, English
-Oliver Twist, Charles Dickens, English
-Godaan, Premchand, Hindi
-Chandrakanta, Devaki Nandan Khatri, Hindi
-Hamlet, William Shakespeare, English
-The Merchant of Venice, William Shakespeare, English
+bookname | author | language
+-----|-----|-----
+A Tale of Two Cities | Charles Dickens | English
+Oliver Twist | Charles Dickens | English
+Godaan | Premchand | Hindi
+Chandrakanta | Devaki Nandan Khatri | Hindi
+Hamlet | William Shakespeare | English
+The Merchant of Venice | William Shakespeare | English
 
 Output Format
 
