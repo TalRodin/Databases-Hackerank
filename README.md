@@ -523,19 +523,21 @@ Q37: __Databases - Natural Joins__
 
 Relation R(A,C) has the following tuples:
 
-A : C 
-3,3 
-16,4 
-12,3 
-3,15 
-27,1
+A | C
+---|---
+3 | 3 
+16 | 4 
+12 | 3 
+3 | 15 
+27 | 1
 
 Relation S(B,C,D) has the following tuples:
 
-B : C : D 
-50,1,6 
-1,55,8 
-4,3,9
+B | C | D
+---|---|---
+50 | 1 | 6 
+1 | 55 | 8 
+4 | 3 | 9
 
 The following tuple is in the result of the natural join between R and S where tuples are structured as (A,B,C,D):
 
@@ -548,9 +550,10 @@ In the answer box, fill up the values of the integers X, Y and Z in three separa
 30  
 
 Answer: 
-50
-1
-6
+A=27(table 1) --> C=1 (table 1) --> C=1 (table 2) --> B=50 (table 2) and D=9 (table 2)
+A | B | C | D
+---|---|---|---
+27 | 50 | 1 | 6
 
 ********************************************************************************************************
 
@@ -594,6 +597,6 @@ A | B | C
 1 | 2 | 6
 
 b=2
-b=3
+c=3
 
 
