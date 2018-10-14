@@ -11,8 +11,7 @@ How many elements are present in A U B?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
 ```
-Answer: 8
-
+> Answer: 8
 > A U B ( U - or) = A + B - A and B 
 > A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {2,3,4,5,6} = {1,2,3,4,5,6,2,3,4,5,6,7,8}-{2,3,4,5,6}={1,2,3,4,5,6,7,8}
 
@@ -30,8 +29,7 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 ```
 
-Answer: 5
-
+> Answer: 5
 > A U B ( U - or) = A + B - A and B 
 > A and B = A + B  - A U B ( U - or) 
 > A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {1,2,3,4,5,6,2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {2,3,4,5,6}
@@ -48,10 +46,9 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 ```
 
-Answer: 1
-
->A - B = {1,2,3,4,5,6} - {2,3,4,5,6,7,8} = {1}
->We substract from set A the values which are in set B if value in set A = value in set B and the result is what left in set A.
+> Answer: 1
+> A - B = {1,2,3,4,5,6} - {2,3,4,5,6,7,8} = {1}
+> We substract from set A the values which are in set B if value in set A = value in set B and the result is what left in set A.
 
 
 Q4: __Basics of Sets and Relations #4__
@@ -66,15 +63,14 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 
 ```
 
-Answer: 42
-
->set A = 6 values
->set B = 7 values
->number pairs = 6*7 =42
+> Answer: 42
+> set A = 6 values
+> set B = 7 values
+> number pairs = 6*7 =42
 >
->(1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (2,2) (2,3) (2,4) (2,5) (2,6) (2,7) (2,8) (3,2) (3,3) (3,4) (3,5) (3,6) (3,7) (3,8)
->(4,2) (4,3) (4,4) (4,5) (4,6) (4,7) (4,8) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (5,8) (6,2) (6,3) (6,4) (6,5) (6,6) (6,7) (6,8)
->(7,2) (7,3) (7,4) (7,5) (7,6) (7,7) (7,8) (8,2) (8,3) (8,4) (8,5) (8,6) (8,7) (8,8)
+> (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (2,2) (2,3) (2,4) (2,5) (2,6) (2,7) (2,8) (3,2) (3,3) (3,4) (3,5) (3,6) (3,7) (3,8)
+> (4,2) (4,3) (4,4) (4,5) (4,6) (4,7) (4,8) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (5,8) (6,2) (6,3) (6,4) (6,5) (6,6) (6,7) (6,8)
+> (7,2) (7,3) (7,4) (7,5) (7,6) (7,7) (7,8) (8,2) (8,3) (8,4) (8,5) (8,6) (8,7) (8,8)
 
 
 Q5: __Basics of Sets and Relations #5__
@@ -96,36 +92,36 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 
 ```
 
-Answer: 2
+> Answer: 2
+> Number 3412 < 3000 and Number 2341 < 3000
 
->Number 3412 < 3000 and Number 2341 < 3000
-
-********************************************************************************************************
 
 Q6: __Basics of Sets and Relations #6__
 
+```
 Consider the following data table named Student.
-
+```
 Name | Number | Sex
 ------------ | ------------- | -------------
 Nina | 3412 | F 
 Mike | 1234 | M  
 Nelson | 2341 | F
 
+```
 What is the count of attributes (columns) returned in the following projection? 
 π(Name, Number)(Student)
 
 Only enter a single integer. Do not include any extra spaces or newlines.
+```
+> Answer: 2 
+> Name, Number
 
-Answer: 2 
-
-Name, Number
-
-********************************************************************************************************
 
 Q7: __Basics of Sets and Relations #7__
 
+```
 Consider the following data table named Student.
+```
 
 Student Name | Number | Sex
 ------------ | ------------- | -------------
@@ -133,144 +129,153 @@ Nina | 3412 | F
 Mike | 1234 | M  
 Nelson | 2341 | F  
 
+```
 Here is another data table named Teaching Assistants
-
+```
 Subject | ID
 ------|------
 Physics | 3412
 Chemistry | 1111
 Mathematics | 2341
 
+```
 What is the count of rows returned in the following join operation? 
 Student ⊳⊲(Number=ID) Teaching Assistants
 
 Only enter a single integer. Do not include any extra spaces or newlines.
+```
 
-Answer: 2 
-Number=ID=3412
-Number=ID=2341
+> Answer: 2
+> Number=ID=3412
+> Number=ID=2341
 
-********************************************************************************************************
 
 Q8: __Relational Algebra - 3__
 
+```
 Which is a join condition contains an equality operator?
+```
 
-Answer: Equijoins - joining against equality
-FROM t1
-JOIN t2
-ON t1.id=t2.id
-t1        t2
-2 A2      5 B5
-5 A5      1 B1
-3 A3      3 -
-1 -       6 B6
-4 A4      2 B2
-          5 C5
+> Answer: Equijoins - joining against equality
+> FROM t1
+> JOIN t2
+> ON t1.id=t2.id
 
-2 A2 --> 2 B2
-5 A5 --> 5 B5
-5 A5 --> 5 C5
-3 A3 --> 3 -
-1 -  --> 1 B1
-4 A4 does not equal 6 B6
+t1 | t2
+---|---
+2 A2 | 5 B5
+5 A5 | 1 B1
+3 A3 | 3 -
+1 - | 6 B6
+4 A4 | 2 B2
+     | 5 C5
 
-********************************************************************************************************
+> 2 A2 --> 2 B2
+> 5 A5 --> 5 B5
+> 5 A5 --> 5 C5
+> 3 A3 --> 3 -
+> 1 -  --> 1 B1
+> 4 A4 does not equal 6 B6
+
 
 Q9: __Relational Algebra - 4__
 
+```
 In precedence of set operators the expression is evaluated from:
-
+```
 Answer: Left to right
 
-********************************************************************************************************
 
 Q10: __Database Query Languages__
 
+```
 Using which language can a user request information from a database ?
-
+```
 Answer: Query
 
-********************************************************************************************************
 
 Q11: __Procedural Language__
 
+```
 Which one of the following is a procedural language ?
-
+```
 Answer: Relational algebra
 
-********************************************************************************************************
 
 Q12: __Relations - 1__
 
+```
 The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
-
+```
 Answer: Join
 
-********************************************************************************************************
 
 Q13: __Relations - 2__
 
+```
 The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+```
+> Answer: Cartesian product
+> A × B = {(x, y) : x ∈ A, y ∈ B}
+> A = {7, 8} and B = {2, 4, 6}
+> A × B = {(7, 2); (7, 4); (7, 6); (8, 2); (8, 4); (8, 6)}
 
-Answer: Cartesian product
-A × B = {(x, y) : x ∈ A, y ∈ B}
-A = {7, 8} and B = {2, 4, 6}
-A × B = {(7, 2); (7, 4); (7, 6); (8, 2); (8, 4); (8, 6)}
-
-********************************************************************************************************
 
 Q14: __Index Architecture Types__
 
+```
 How many index architecture type classifications are there in MS SQL Server?
+```
+> Answer: 2 
+> Clustered and non clusterd
 
-Answer: 2 
-Clustered and non clusterd
-
-********************************************************************************************************
 
 Q15: __OLAP Performance__
 
+```
 Which of these helps OLAP speed up queries, in terms of performance?
+```
+> Answer: Aggregation
 
-Answer: Aggregation
-
-********************************************************************************************************
 
 Q16: __OLAP Operations - 1__
 
+```
 This OLAP operation involves computing all of the data relationships for one or more dimensions.
+```
 
-Answer: roll-up
+> Answer: roll-up
 
-********************************************************************************************************
 
 Q17: __Indexes - 2__
 
+```
 Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
+```
 
-Answer: If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
+> Answer: If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 
-********************************************************************************************************
 
 Q18: __Indexes - 3__
 
+```
 Consider the following two designs to store the data using clustered indexes in MS SQL Server:
+
 * In the first design, the fill factor is 20% and the total number of free rows per page are A.
 
 * In the second design, the fill factor is 40% and the total number of free rows per page are B. 
 
 Which the followings describes the relation between A and B:
+```
+> Answer: A = 1.33B
 
-Answer: A = 1.33B
-
-********************************************************************************************************
 
 Q19: __OLAP Operations - 2__
 
+```
 This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
-
-Answer: pivot
+```
+> Answer: pivot
 
 ********************************************************************************************************
 
